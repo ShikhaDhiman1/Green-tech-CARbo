@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top bg-success navbar-dark"> <!--NAVBAR-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">
+            <img class="img-logo" src="logo1.jpeg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item item1" style="margin-left:500px;" >
+                <a class="nav-link active"  aria-current="page" href="#home"><b>Home</b></a>  <!--Home page link-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#cars">Cars</a> <!--link to Cars section-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#faqs">FAQs</a> <!--link to FAQs-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#about">About</a> <!--link to 'About section'-->
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section id="home"> 
+        <div class="row-1 row container-fluid  text-light p-5" style="max-height:510px;"> <!--HOME page-->
+            <div class="col div-content mx-4 mt-5 pt-3">
+                <center><img style="width:80px; height:120px;padding-bottom:40px;" src="greenLeaf.png" alt="image"><span class="span-1">CAR</span> <span class="span-2">bo</span>
+                    <br><br>
+                <p style="font-size: 27px;font-family: 'Aclonica', sans-serif;text-shadow: 15px 7px 10px black;">CARbo suggests you the right car,</p><p style="font-size: 32px;font-family: 'Henny Penny', cursive;font-weight:900;text-shadow: 15px 7px 10px black;"> for you to go far.</p></center>
+                <!-- font-family: 'Sofia', cursive; -->
+            </div>
+            <div class="col image-car">
+                <img src="car.png" alt="car-image" class="car-image ">
+            </div>
+            <hr color="darkgreen" height="15">
+    </div>
+    </section>
+    <section id="about">
+        <div class="div-about container-fluid p-5"> <!--About Section-->
+
+            <p style="font-size:32px; font-family: cursive;  padding-left:15px;  border-radius: 10px; color:white; background-image: linear-gradient(to right,rgb(20, 118, 46),rgb(28, 148, 60), white);" class="bg-success" >About</p>
+
+            <br>
+            <hr color="darkgreen" height="15">
+            <p style="font-family: 'Berkshire Swash', cursive; font-size:28px;font-weight:800;color:rgb(38, 38, 104);">Love Cars?</p>
+            <center><p style="font-family: 'Berkshire Swash', cursive; font-size:25px; color:rgb(38, 38, 104);">Will make you fall in love with environment too!</p></center>
+            <p>With the growing population, comes the increasing need of using more means of transport. And more transportation means more pollution. So, what can we do to change this? Well, not everyone of us can afford to buy an electric vehicle yet.</p>
+            <p>Hence, here’s a solution to all your problems. View the pollution levels of a car before buying it, to make sure you can contribute towards saving the environment. This platform provides information regarding the fuel consumption, CO2 emissions and accordingly the pollution generated from each model of a car. These details make you aware of the adverse effects of a car, and help you make minimal efforts in order to protect your surroundings. </p>
+            <center><p style="font-family: 'Aclonica', sans-serif; font-size: 20px;"><b>Take a small step, and make a big change. <br>Have a look, before you book.</b></p></center>
+        </div>
+    </section>  
+    <section id="cars">
+        <div class="cards pt-4 pb-4"> <!--Cars Section-->
+            <p style="font-size:32px; font-family: cursive;  padding-left:15px;  border-radius: 10px; color:white; background-image: linear-gradient(to right, white,rgb(135, 179, 146),rgb(20, 118, 46)); color: rgb(20, 118, 46);" class="mx-5">Pick Your Car</p>
+            <div class="row container-fluid">
+                <div class="col card m-4">
+                    <a href="#"><img src="Acura.png" class="card-img-top" id="Acura" alt="..."></a>
+                </div>
+                <div class="col card m-4" >
+                    <a href="#"><img src="Alfa-Romeo.png" class="card-img-top" id="Alfa Romeo" alt="..."></a>
+                </div>
+                <div class="col card m-4" >
+                    <a href="#"><img src="Aston_martin.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Audi.png" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="row container-fluid">
+                <div class="col card m-4">
+                    <a href="#"><img src="Bentley.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4" >
+                    <a href="#"><img src="Bmw.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Bugatti.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Buick.png" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="row container-fluid">
+                <div class="col card m-4">
+                    <a href="#"><img src="cadillac.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4" >
+                    <a href="#"><img src="Chevrolet.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Dodge.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Ford.png" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="row container-fluid">
+                <div class="col card m-4">
+                    <a href="#"><img src="Genesis.jpg" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4" >
+                    <a href="#"><img src="Gmc.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Honda.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Hyundai.png" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="row container-fluid">
+                <div class="col card m-4">
+                    <a href="#"><img src="Infiniti.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4" >
+                    <a href="#"><img src="Jaguar.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Jeep.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Kia.png" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="row container-fluid">
+                <div class="col card m-4">
+                    <a href="#"><img src="Lamborghini.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4" >
+                    <a href="#"><img src="Land-Rover.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Lexus.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Lincoln.png" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="row container-fluid">
+                <div class="col card m-4">
+                    <a href="#"><img src="Maserati.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4" >
+                    <a href="#"><img src="Mazda.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Merceded-Benz.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Mini.png" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="row container-fluid">
+                <div class="col card m-4">
+                    <a href="#"><img src="Mitsubishi.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4" >
+                    <a href="#"><img src="Nissan.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Porsche.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Ram.png" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+            <div class="row container-fluid">
+                <div class="col card m-4">
+                    <a href="#"><img src="Subaru.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4" >
+                    <a href="#"><img src="Toyota.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Volkswagen.png" class="card-img-top" alt="..."></a>
+                </div>
+                <div class="col card m-4">
+                    <a href="#"><img src="Volvo.png" class="card-img-top" alt="..."></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="faqs">
+        <div class="div-faqs container-fluid mt-4 px-5 mb-5"> <!--Section for FAQs-->
+            <div class="div-faq-head container-fluid px-3 bg-success mb-3">Frequently Asked Questions</div>
+            <div class="ques q1">
+                <i class="fa fa-check-circle"></i>
+                <a href="#" class="question">How does a car affect Environment?</a>
+                <p class="panel p-2 pl-4 mt-2">Vehicle pollutants harm our health and contain greenhouse gases that cause climate change. Burning gasoline and diesel fuel creates harmful byproducts like nitrogen dioxide, carbon monoxide, hydrocarbons, benzene, and formaldehyde. In addition, vehicles emit carbon dioxide, the most common greenhouse gas. All this results in global warming, acid rain, and harming environment and human health.</p>
+            </div>
+            <div class="ques q2">
+                <i class="fa fa-check-circle"></i>
+                <a href="#" class="question">How is CO2 degrading to the environment?</a>
+                <p class="panel p-2 pl-4 mt-2">CO2 is one of the most important gases for greenhouse effect.
+                    Greenhouse gases trap heat in the atmosphere, which causes worldwide temperatures to rise. Without greenhouse gases, the Earth would be covered in ice, but burning excessive amounts of fossil fuels, such as gasoline and diesel, has caused an increase of 0.6 degrees Celsius, or 1 degree F, in global temperatures since pre-industrial times, and this will continue to rise over the coming decades. Warmer global temperatures affect farming, wildlife, sea levels and natural landscapes.</p>
+            </div>
+            <div class="ques q3">
+                <i class="fa fa-check-circle"></i>
+                <a href="#" class="question">How does this website help in saving environment?</a>
+                <p class="panel p-2 pl-4 mt-2">This website helps you choose the car carefully before buying, so that you make sure that the car you bought is environment-friendly and does not harm the nature much. This may seem like a very small step with a very negligent effect, but this small step will make a huge impact in the overall environment conservation.</p>
+            </div>
+            <div class="ques q4">
+                <i class="fa fa-check-circle"></i>
+                <a href="#" class="question">Why not use electric cars?</a>
+                <p class="panel p-2 pl-4 mt-2">Electric Cars may seem a very good choice if one wants to save the environment, but there are certain drawbacks to that too. Electric cars are quite expensive to buy. There aren’t many charging stations yet, which makes it difficult to use it, as of now. And, they need a long time to charge too. Therefore, just altering your choices within the fuel cars can be effective in environment protection too.</p>
+            </div>
+            <div class="ques q5">
+                <i class="fa fa-check-circle"></i>
+                <a href="#" class="question">What does the abbreviations: A, AM, AS, AV, M stand for in Transmission?</a>
+                <p class="panel p-2 pl-4 mt-2">A=automatic <br>
+                    AM=automated manual <br>
+                    AS=automatic with select shift <br>
+                    AV= continuously variable <br>
+                    M= manual <br>
+                    Also, numbers 3-10 are used to idicate number of gears.</p>
+            </div>
+        </div>
+    </section>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script>
+        var ans = document.getElementsByClassName("question");
+        console.log(ans);
+        var i;
+        for (i = 0; i < ans.length; i++) {
+            ans[i].addEventListener("click", function(e) {
+                e.preventDefault();
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                panel.style.display = "none";
+                } else {
+                panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>

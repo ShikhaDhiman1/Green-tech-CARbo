@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');  /*CAR*/
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap'); /* tag line */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&display=swap'); /* bo */
+/* @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+    .nav-link{
+        margin-left:100px; 
+        font-size: 20px;
+    }
+    
+    .div-content{
+        animation-name:content;
+        animation-timing-function: ease-in;
+        animation-duration: 0.9s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+    }
+    @keyframes content {
+        0%{
+            opacity:0;
+            transform:translateX(-120px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    .car-image{
+        max-height:100%;
+        animation-name:bus;
+        animation-duration: 0.8s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in; 
+        animation-direction:alternate;
+       
+    }
+    @keyframes bus {
+        0%{
+            opacity:0.3;
+            transform: translateY(-220px);
+        }
+        33%{
+            opacity:0.7;
+            transform: translateY(0);
+        }
+        66%{
+            opacity:1;
+            transform: translateY(-30px);
+        }
+        100%{
+            opacity:1;
+            transform: translateY(0);
+        }
+    }
+    .row-1{
+        margin:0px;
+        background-color:rgb(20, 118, 46);
+        max-height: 340px;
+    }
+    .card-img-top{
+        max-width: fit-content;
+    }
+    .card{
+        border-radius: 10px;
+        text-align: center;
+    }
+    .card:hover{
+        box-shadow: 0px 0px 25px rgb(2, 28, 9) ;
+    }
+    .cards{
+        background-color:rgb(20, 118, 46);
+    }
+    .btn{
+        background-color: grey;
+        color:whitesmoke;
+        font-weight: 600;
+        width: 100%; 
+    }
+    .btn:hover{
+        color:rgb(206, 206, 206);
+    }
+
+    .div-about{
+        word-spacing: 2.5px;
+        font-size: 18px;
+        font-family: cursive;
+        color: rgb(20, 118, 46);
+    }
+    .div-faq-head{
+        font-size:32px;
+        color:white;
+        border-radius: 10px;
+        font-family: cursive;
+        background-image: linear-gradient(to right,rgb(20, 118, 46),rgb(28, 148, 60), white);
+    }
+    .fa-check-circle{
+        font-size:20px;
+        color:rgb(20, 118, 46);
+        margin-right: 6px;
+    }
+    .ques{
+        padding:15px;
+        border-bottom: 1px solid rgb(171, 171, 171);
+    }
+    .ques a{
+        font-weight: 600;
+        /* text-decoration: underline;  */
+        font-size:18px;
+    }
+    .ques a:hover{
+        color: rgb(20, 118, 46);
+        text-decoration: none;
+    }  
+    .img-logo{
+        border-radius:50%;
+        height:50px;
+        width:50px;
+    } 
+    @media screen and (max-width:1103px) {
+        .image-car{
+            display:none;
+        }
+    } 
+    .span-1{
+        font-size:50px;
+        color:rgb(38, 38, 104);
+        font-weight:900;
+        font-family: 'Berkshire Swash', cursive;
+    }
+    .span-2{
+        font-size: 45px;
+        
+       background-image: linear-gradient(to right, rgb(106, 46, 5),rgb(255, 128, 0), yellow);
+       color:transparent;
+       background-clip: text;
+       -webkit-background-clip: text;
+       font-family: 'Black Ops One', cursive;
+    }  
+    .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+        /* font-family: monospace; */
+        font-weight:500;
+    } 
